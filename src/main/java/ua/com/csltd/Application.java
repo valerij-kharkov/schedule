@@ -2,8 +2,6 @@ package ua.com.csltd;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.context.annotation.ComponentScan;
-import org.springframework.context.annotation.ImportResource;
 import org.springframework.scheduling.annotation.EnableScheduling;
 
 /**
@@ -12,8 +10,6 @@ import org.springframework.scheduling.annotation.EnableScheduling;
  */
 @SpringBootApplication
 @EnableScheduling
-@ComponentScan({"applicationContext.xml" })
-//@ImportResource({"classpath:applicationContext.xml" })
 public class Application {
 
 	public static void main(String[] args) throws Exception {
